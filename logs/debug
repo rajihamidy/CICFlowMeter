@@ -1,0 +1,22 @@
+2026-08-17 14:37:23 INFO  cic.cs.unb.ca.ifm.Cmd    Please select pcap!
+2026-08-17 14:38:27 INFO  cic.cs.unb.ca.ifm.Cmd    Please select pcap!
+2026-08-17 15:15:28 INFO  cic.cs.unb.ca.ifm.Cmd    You select: ../captures/capture_1786962009.pcap
+2026-08-17 15:15:28 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: ../flows
+2026-08-17 15:15:29 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-08-17 15:15:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*34 e1 2d 1f  5a 9a 7c 99  2e 9d 84 10  08 06 00 01*   4.-Z.|.........
+0010: 08 00 06 04  00 01 7c 99  2e 9d 84 10  c0 a8 00 01    ......|.........
+0020: 00 00 00 00  00 00 c0 a8  00 c7*                      ..........      
+
+
+2026-08-17 15:15:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1f39d941af8class org.jnetpcap.protocol.network.Ip4: size=16 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=6776)
+********************************************************************************
+0000:*7c 99 2e 9d  84 10 34 e1  2d 1f 5a 9a  08 06 00 01    |.....4.-Z.....
+0010: 08 00 06 04  00 02 34 e1  2d 1f 5a 9a  c0 a8 00 c7    ......4.-Z.....
+0020: 7c 99 2e 9d  84 10 c0 a8  00 01                       |.........      
+
+
+2026-08-17 15:15:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on ..\captures\capture_1786962009.pcap
